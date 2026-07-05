@@ -1,0 +1,70 @@
+# Python virtual environments
+venv3/
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Model artifacts (optional - uncomment if you don't want to track .pkl files)
+# *.pkl
+# *.pickle
+# *.joblib
+
+# Large data files (optional - uncomment if you don't want to track CSV files)
+# *.csv
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# OS generated files
+Thumbs.db
+Thumbs.db:encdata
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+desktop.ini
